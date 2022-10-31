@@ -1,0 +1,46 @@
+* {
+  transition: all 0.8s ease;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Island Moments", cursive;
+  font-size: 8rem;
+
+  color: #e6e9eb;
+  background-image: -webkit-linear-gradient(90deg, #e6e9eb 28%, #06d1f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.parag {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+#inputText {
+  font-size: 1.5rem;
+}
+
+.parag-checked {
+  text-decoration: line-through;
+  background-color: lightseagreen;
+}
+
+.btn {
+  font-size: 1.2rem;
+}
+
+.clear {
+  opacity: 0;
+  transform: translateX(10rem);
+  transition: all 1s ease;
+}
+
+button {
+  width: 10rem;
+  font-size: 3.5rem;
+}
